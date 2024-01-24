@@ -1,0 +1,207 @@
+.navbar
+{
+    margin-left: -100px;
+    margin-right: -100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    height: 50px;
+}
+.navbar1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 50px;
+    align-content: space-around;
+    font-size: larger;
+}
+.navbar1 a{
+    width: 213px;
+}
+
+.options{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    width: 366px;
+    align-items: center;
+}
+.options a
+{
+    margin-right: 10px;
+}
+.options1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 366px;
+    align-content: space-around;
+}
+.op{
+    text-align: center;
+    border: 3px solid pink;
+    width: 75px;
+}
+.txt{
+    text-align: center;
+    height: 250px;
+    
+}
+button{
+    background-color: rgb(0, 162, 255);
+    color: white;
+    border: 0px;
+    height: 40px;
+    width: 200px;
+    font-size:20px;
+}
+.content
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+}
+.title
+{
+    background-color:rgb(234, 252, 252);
+    color: aqua;
+    height: 25px;
+    width: 165px;
+    text-align:center;
+    padding-top: 7px;
+    border-radius: 25px;
+    font-size: 15px;
+}
+.brand
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.logo
+{
+    padding: 15px;
+    height: 15%;
+    width: 15%;
+   
+}
+.page2
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+body{
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.pg3p
+{
+    margin-left:100px ;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px; 
+    height: 80vh;
+}
+.pp1{
+    height: 175px;
+    width: 200px;
+    padding: 10px;
+    border: 3px solid;
+    border-color: black;
+}
+.page4_allign{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: -100px;
+    margin-right: -100px;
+    height: 300px;
+}
+.button1{
+    background-color: white;
+    color: aqua;
+    border-color: aqua ;
+    border: 3px solid;
+    height: 40px;
+    width: 250px;
+    font-size:20px;
+    margin: 10px;
+}
+.page5{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.page4_sub{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 300px;
+}
+.pg_grid
+{
+    display: flex;
+    flex-direction:row;
+    height: 80vh;
+    gap: 5px;
+    justify-content: space-evenly;
+}
+
+.block{
+    width: 290px;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 15px;
+    box-shadow: 3px 3px 10px hsl(0, 1%, 21%);
+}
+footer{
+    background-color: rgb(37, 37, 37);
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+}
+.f_left
+{
+    width: 417px;
+}
+.f_right{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    width: 450px;;
+}
+.f_list{
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.f_list a{
+    color: gray;
+}
