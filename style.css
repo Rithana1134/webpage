@@ -181,6 +181,9 @@ body{
 }
 footer{
     background-color: rgb(37, 37, 37);
+    height: 350px;
+}
+.foot{
     height: 250px;
     display: flex;
     flex-direction: row;
@@ -188,6 +191,7 @@ footer{
 .f_left
 {
     width: 417px;
+    position: relative;
 }
 .f_right{
     display: flex;
@@ -204,4 +208,26 @@ footer{
 }
 .f_list a{
     color: gray;
+}
+.f_bottom
+{
+    margin-left: 12%;
+    width: 76%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: center;
+    color: grey;
+
+}
+.f_bottom1{
+    height: 50px;
+    width: 350px;
+}
+.f_bottom2{
+    height: 50px;
+    width: 150px;
+    text-align: left;
+    margin-top: 10px;
 }
